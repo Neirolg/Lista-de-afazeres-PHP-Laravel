@@ -1,5 +1,5 @@
 # Sprint 01
- - Semana de 01/08
+ - Semana de 01/08/2022
 
  Sprit planning
 
@@ -22,6 +22,8 @@
 - Será desenvolvido uma lista de afazeres. 
 - Inicialização da documentação
 - Criação do repositório GitHub
+
+
 
 
 

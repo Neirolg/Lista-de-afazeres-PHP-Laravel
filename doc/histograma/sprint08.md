@@ -1,5 +1,5 @@
 # Sprint 02
- - Semana de 08/08/2022
+ - Semana de 19/09/2022
 
 Sprint planning
 
