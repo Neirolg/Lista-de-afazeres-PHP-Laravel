@@ -11,9 +11,19 @@
 
 # OBJETIVO
 
-# PARTICIPANTES
+## Descrição do Projeto: 
+Um aplicativo onde você poderá gerenciar e planejar suas tarefas diárias.
+
+# ALUNOS
 
 * Adriana Ewerling Ferreira da Rocha
+ - adrianalibras@gmail.com  | +55 49 9 9973-3703
+ 
+
+# PROFESSOR
+
+- Adriano Machado: 
+  - adriano@machado.tec.br | +55 67 9 9263-6781
 
 
 # FERRAMENTAS
@@ -25,3 +35,12 @@
 
 
 # DETALHES
+
+# SCRUM
+
+
+
+
+
+## Backlog do Projeto
+
