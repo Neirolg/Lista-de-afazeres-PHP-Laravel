@@ -12,7 +12,7 @@
 
  - Projeto para Conclusão de Curso de PHP - ENTRA21
 
- - Desenvolver uma ferramenta onde é possível listar afazeres e definir quais são as prioridades que precisam ser realizadas. Poderá gerenciar e planejar tarefas diárias.
+ - Desenvolver uma ferramenta onde é possível listar afazeres e definir quais são as prioridades que precisam ser realizadas, gerenciando e planejando tarefas diárias.
 
  # DETALHES
 
@@ -38,14 +38,24 @@
 
 # Grupo Discussão e Reuniões
 
-  Telegram --> https://web.telegram.org/z/#-1709084372
+  Telegram 
 
-  Google Meat --> https://meet.google.com/nbc-gvnp-pfh?authuser=0
+  Google Meat 
 
+# Metodologia 
+
+- Scrum
+
+[scrum](doc/scrum/scrum_00.md)
+
+- Kanban
+
+[kanban](doc/scrum/kanban/kanban00.md)
 
 # ALUNOS
 
 * Adriana Ewerling Ferreira da Rocha
+
  [![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5549999733703)   
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriana-ewerling-ferreira-da-rocha/)  
 [![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adrianalibras@gmail.com)  
@@ -59,7 +69,7 @@
 
 * Kelvin
 
-* Luiz
+* Luis
 
 * Sergio
  

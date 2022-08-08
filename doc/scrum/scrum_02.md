@@ -5,7 +5,7 @@
 * [EDUARDO     ](#Eduardo)
 * [HONALD      ](#Honald)
 * [KELVIN      ](#Kelvin)
-* [LUIZ        ](#Luiz)
+* [LUIS        ](#Luis)
 * [SERGIO      ](#Sergio)
 
 ## Definições pelo Scrum Master para cada sprint
@@ -92,7 +92,7 @@ Kanban individual disponível em:
 
 # #######################
 
-# LUIZ
+# LUIS
 
 
 ## Sprint 01
@@ -108,7 +108,7 @@ Kanban individual disponível em:
 
 
 Kanban individual disponível em:
-[LUIZ](kanban/luiz.md)
+[LUIS](kanban/luis.md)
 
 
 # #######################
