@@ -10,6 +10,7 @@
 * CONCLUÍDO
 - Definição do projeto
 - Elaboração do Readme
+- Comitar 
 
 
 # ############
