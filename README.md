@@ -31,9 +31,9 @@
  * PHP
  * HTML
  * SQL
- * Bootstrap- ??
+ * Laravel
  * CCS
- * Jacascript - ??
+ * Javascript 
 
 ## Ferramentas
 
