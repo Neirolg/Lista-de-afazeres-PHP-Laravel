@@ -33,11 +33,8 @@
  * SQL
  * Laravel
  * CCS
-<<<<<<< HEAD
  * Javascript
-=======
- * Javascript 
->>>>>>> 591bd9b0db55a207c0365f15694077aaabf133b8
+
 
 ## Ferramentas
 
