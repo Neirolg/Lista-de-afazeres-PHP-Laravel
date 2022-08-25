@@ -16,20 +16,35 @@
 
  # DETALHES
 
+ - O Programa vai ajudar a organizar a maratona de atividades diárias. 
+
+- O programa cria uma lista de tarefas onde possa colocar todas as ideias ou atividades que precisa realizar.
+
+- A lista enumerar as atividades por prioridades e marca as atividades já realizadas.
+
+- O programa permitirá redefinir e reprogramar as tarefas e permitir a exclusão de tarefas já criadas.
+
+
+
 ## Tecnologias
 
  * PHP
  * HTML
  * SQL
- * Bootstrap
+ * Laravel
  * CCS
+<<<<<<< HEAD
  * Javascript
+=======
+ * Javascript 
+>>>>>>> 591bd9b0db55a207c0365f15694077aaabf133b8
 
 ## Ferramentas
 
 * Gitini
 * GitHub
 * VSCode
+
 
 
 # Inicialização: Repositório público
