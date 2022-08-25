@@ -5,9 +5,7 @@ Sprint planning
 
  ### Definições
 
-* A FAZER
-
- 
-
 * FEITO
+
+- Desenho do projeto embrionário
 

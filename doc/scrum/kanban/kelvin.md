@@ -13,49 +13,24 @@
 - Definição do Projeto
 - Criação do repositório Git
 
-# ############
-
 ## Sprint 02
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+- Pesquisas
 
 # ############
 
 ## Sprint 03
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+- História do usuário
 
 # ############
 
 ## Sprint 04
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
-
-# ############
+- Desenho do projeto embrionário
 
 ## Sprint 05
 

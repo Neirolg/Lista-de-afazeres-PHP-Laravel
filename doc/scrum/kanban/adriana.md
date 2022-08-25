@@ -17,43 +17,27 @@
 
 ## Sprint 02
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+- Pesquisas
 
 # ############
 
 ## Sprint 03
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
 
 * CONCLUÍDO
-- 
+
+- História do Usuário
 
 # ############
 
 ## Sprint 04
 
 # ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
 
 * CONCLUÍDO
-- 
+
+- Desenho do projeto embrionário
 
 # ############
 

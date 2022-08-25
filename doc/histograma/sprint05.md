@@ -7,7 +7,7 @@ Sprint planning
 
 * A FAZER
 
- 
+
 
 * FEITO
 

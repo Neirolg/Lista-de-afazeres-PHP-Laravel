@@ -5,9 +5,7 @@ Sprint planning
 
  ### Definições
 
-* A FAZER
-
- 
-
 * FEITO
+
+Cada membro da equipe fez pesquisas quanto a temática do projeto
 

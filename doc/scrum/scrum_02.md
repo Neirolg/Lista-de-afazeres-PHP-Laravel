@@ -14,15 +14,15 @@
 
 ## Sprint 01
 
-# ############
-* A FAZER
+- Criação da documentação do projeto.
 
+## Sprint 02
 
-* EM ANDAMENTO
+- Pesquisas do projeto.
 
+## Sprint 03
 
-* CONCLUÍDO
-
+- Criação história do usuário.
 
 Kanban individual disponível em:
 [ADRIANA](kanban/adriana.md)

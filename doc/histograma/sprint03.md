@@ -5,8 +5,6 @@ Sprint planning
 
  ### Definições
 
-* A FAZER
-
- 
-
 * FEITO
+
+- Criada a história do usuário
