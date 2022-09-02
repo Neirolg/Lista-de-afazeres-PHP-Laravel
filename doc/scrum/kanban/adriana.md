@@ -43,15 +43,9 @@
 
 ## Sprint 05
 
-# ############
-* A FAZER
- - 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+
+- Elaboração do Organograma do Projeto  
 
 # ############
 

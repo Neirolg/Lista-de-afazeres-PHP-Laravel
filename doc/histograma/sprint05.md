@@ -7,7 +7,11 @@ Sprint planning
 
 * A FAZER
 
-
+- Instalar Laravel para o projeto
 
 * FEITO
+
+- Desenho do organograma do projeto
+
+
 
