@@ -123,15 +123,8 @@
 
 1 - criar uma instancia do laravel dentro do projeto. 
 2 - Todos membros da equipe vão clonar (pull) e executar o laravel localmente. 
-<<<<<<< HEAD
 [OK] - Adriana (composer update, criar o arquivo.env local)
 [ ] - Kelvin OK
-=======
-[ ] - Adriana (composer update, criar o arquivo.env local)
-[ok] - Kelvin OK
-[ ] - honald 
-[OK] - luis 
->>>>>>> 804f922c9302aecfe1de73ac291046b8dbea7d53
 [OK] - honald 
 [ ] - luis 
 [OK] - eduardo 
