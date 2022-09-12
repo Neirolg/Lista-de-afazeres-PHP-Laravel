@@ -125,6 +125,8 @@
 2 - Todos membros da equipe vão clonar (pull) e executar o laravel localmente. 
 [ ] - Adriana (composer update, criar o arquivo.env local)
 [ ] - Kelvin OK
+[ ] - honald 
+[OK] - luis 
 [OK] - honald 
 [ ] - luis 
 [OK] - eduardo 
