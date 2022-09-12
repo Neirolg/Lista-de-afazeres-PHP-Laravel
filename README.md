@@ -84,6 +84,12 @@
 
 * Honald
 
+[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5547997000381)   
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/honaldterleski/)  
+[![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ho.terleeski@gmail.com)  
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Terleski) 
+
+
 * Kelvin
 
  [![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5547999483625)   
@@ -120,8 +126,10 @@
 [ ] - Adriana (composer update, criar o arquivo.env local)
 [ok] - Kelvin OK
 [ ] - honald 
+[OK] - luis 
+[OK] - honald 
 [ ] - luis 
-[ ] - eduardo 
+[OK] - eduardo 
 [ ] - sergio 
 3 - Criar os menus (rotas ainda não só os menus no navbar) para as principais controllers/views existentes no projeto. 
   - adicionar tarefas
