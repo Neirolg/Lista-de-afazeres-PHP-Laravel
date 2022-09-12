@@ -127,7 +127,7 @@
 [ ] - Kelvin OK
 [OK] - honald 
 [ ] - luis 
-[ ] - eduardo 
+[OK] - eduardo 
 [ ] - sergio 
 3 - Criar os menus (rotas ainda não só os menus no navbar) para as principais controllers/views existentes no projeto. 
   - adicionar tarefas
