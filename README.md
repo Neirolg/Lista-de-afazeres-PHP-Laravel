@@ -126,7 +126,7 @@
 [OK] - Adriana (composer update, criar o arquivo.env local)
 [ ] - Kelvin OK
 [OK] - honald 
-[ ] - luis 
+[OK] - luis 
 [OK] - eduardo 
 [ ] - sergio 
 3 - Criar os menus (rotas ainda não só os menus no navbar) para as principais controllers/views existentes no projeto. 
