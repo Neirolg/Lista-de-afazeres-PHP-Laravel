@@ -5,7 +5,7 @@
 <html>
 <div style='text-align:center'>
     <fieldset>
-        <form method="post" action="">
+        <form method="POST" action="">
         LOGIN<br><br>
         <input type="text" name="usuario" id="usuario" placeholder="usuario"><br><br>
         <input type="password" name="senha" id="senha" placeholder="senha"><br><br>
@@ -16,6 +16,7 @@
         </form>
     </fieldset>
 </html>
+
 
 
 
