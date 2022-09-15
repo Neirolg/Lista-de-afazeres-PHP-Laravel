@@ -10,6 +10,6 @@ class LoginController extends Controller
     {
         $viewData = [];
         $viewData["title"] = "ToDoList";
-        return view('login.index')->with("viewData", $viewData);
+        return view('auth.login')->with("viewData", $viewData);
     }
 }

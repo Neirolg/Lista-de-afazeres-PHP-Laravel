@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/about', 'App\Http\Controllers\HomeController@about')->name("home.about");
-Route::get('/', 'App\Http\Controllers\HomeController@index')->name("home.index");
+Route::get('/', 'App\Http\Controllers\LoginController@index')->name("auth.login");
 
 Route::middleware([
     'auth:sanctum',
