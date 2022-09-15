@@ -1,3 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-4">
+        <div class="container">
+            <a class="navbar-brand" href="{{ route('auth.login') }}">@yield('title', 'To Do List')</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="{{ route('home.about') }}">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
@@ -11,6 +25,7 @@
                 {{ session('status') }}
             </div>
         @endif
+    
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
