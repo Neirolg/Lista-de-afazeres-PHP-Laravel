@@ -1,12 +1,3 @@
-<!-- @extends('layouts.app') -->
-<!-- @section('title', $viewData["title"])
-@section('subtitle', $viewData["subtitle"])
-@section('content') -->
-
-<html>
-<script type="module" src="https://md-block.verou.me/md-block.js"></script>
-<md-block src="{{ asset('/README.md') }}">
-
 # Entra21 - Turma PHP - Grupo 03 
 
 
@@ -126,7 +117,28 @@
   - adriano@machado.tec.br | +55 67 9 9263-6781
 
 
-</md-block>
-</html>
 
-@endsection
+
+12/09/2022
+
+1 - criar uma instancia do laravel dentro do projeto. 
+2 - Todos membros da equipe vão clonar (pull) e executar o laravel localmente. 
+[OK] - Adriana (composer update, criar o arquivo.env local)
+[ ] - Kelvin OK
+[OK] - honald 
+[OK] - luis 
+[OK] - eduardo 
+[ ] - sergio 
+3 - Criar os menus (rotas ainda não só os menus no navbar) para as principais controllers/views existentes no projeto. 
+  - adicionar tarefas
+  - listar tarefas 
+  - admin (cadastrar usuarios)
+- 
+4 - utilizar banco de dados na nuvem ( ainda não ). Neste momento vão utilizar um controller como falamos em sala. 
+5 - criar um form em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
+6 - criar um list em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
+
+
+
+
+
