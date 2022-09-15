@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/about', 'App\Http\Controllers\HomeController@about')->name("home.about");
 Route::get('/', 'App\Http\Controllers\HomeController@index')->name("home.index");
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
