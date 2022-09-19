@@ -10,38 +10,34 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-4">
-        <div class="container">
-            <a class="navbar-brand" href="{{ route('auth.login') }}">@yield('title', 'To Do List')</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          
+    <div class="container">
+        <a class="navbar-brand" href="{{ route('dashboard') }}">@yield('title', 'To Do List')</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
             @guest
             <div class="navbar-nav ms-auto">
-        <a class="nav-link active" href="/register">Cadastrar</a>
-        
-        @endguest
-            @auth
+                <a class="nav-link active" href="/register">Cadastrar</a>
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" href="/dashboard">Dashboard</a>
-                    <form action="/logout" method="POST">
+                    <a class="nav-link active" href="/about">About</a>
+                    @endguest
+                    @auth
                     <div class="navbar-nav ms-auto">
-            <a class="nav-link active" href="/about">About</a>
-        @csrf
-        <a href="/logout"
-        class="nav-link"
-        onclick="event.preventDefault();
+                        <a class="nav-link active" href="/dashboard">Dashboard</a>
+                        <form action="/logout" method="POST">
+                            <div class="navbar-nav ms-auto">
+                                <a class="nav-link active" href="/about">About</a>
+                                @csrf
+                                <a href="/logout" class="nav-link" onclick="event.preventDefault();
         this.closest('form').submit();">
-        Sair
-        </a>
-        </form>
-        @endauth
-                  
-        </div>
-    </div>
-</div>
+                                    Sair
+                                </a>
+                        </form>
+                        @endauth
+
+                    </div>
+                </div>
+            </div>
 </nav>
-
-    
-
