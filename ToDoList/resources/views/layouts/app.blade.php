@@ -34,6 +34,10 @@
             <body>
     
             <!-- Page Content -->
+            <form method='post'>
+                <button type=submit name=teste value="ok"></button>
+            </form>
+            
             <main>
              
             </main>
