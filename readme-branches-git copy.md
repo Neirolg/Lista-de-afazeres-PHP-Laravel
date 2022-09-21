@@ -5,15 +5,15 @@ git checktou -b feature-teste1
 # Fazer merge da branch atual (local:origin) para a dev:
 git push origin feature-button-teste:dev
 
-
 # Fazer merge da branch atual (local:origin) para a main:
+git remote -v
 git push origin feature-button-teste:dev
 
 # muda para a branch dev
-git branch dev 
+git checkout dev 
 
 # muda para a branch main
-git branch main
+git checkout main
 
 # Fazer um merge da branch remota (github.com:main) --> atual 
 git pull origin feature-button-teste
