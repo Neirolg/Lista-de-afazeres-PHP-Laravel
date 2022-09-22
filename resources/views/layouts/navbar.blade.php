@@ -19,7 +19,7 @@
 
             @guest
             <div class="navbar-nav ms-auto">
-                <a class="nav-link active" href="/register">Cadastrar</a>
+                <a class="nav-link active" href="/register">Sign in</a>
 
                 @endguest
 
