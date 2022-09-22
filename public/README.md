@@ -1,8 +1,6 @@
 
-
 # Entra21 - Turma PHP - Grupo 03 
 
-aa
 <p>
     <h1 align = "center">  LISTA DE AFAZERES </h1>
     <div align = "centro">
