@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CalenderController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,5 +26,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-
+Route::get('calendar-event', [CalenderController::class, 'index']);
+Route::post('calendar-crud-ajax', [CalenderController::class, 'calendarEvents']);
 
