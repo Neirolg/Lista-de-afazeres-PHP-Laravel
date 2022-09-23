@@ -1,7 +1,9 @@
+@include('layouts.navbar')
+
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+        <img src="{{ asset('/logo/todolist230x90.png') }}" />
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
