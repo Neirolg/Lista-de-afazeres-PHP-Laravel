@@ -9,16 +9,16 @@
     <title>@yield('title', 'ToDoList')</title>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-sky-700 py-4">
+<nav class="navbar navbar-expand-lg navbar-dark bg-sky-700  py-4">
     <div class="container">
-        <a class="navbar-brand" href="{{ route('dashboard') }}">@yield('title', 'To Do List')</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand font-extrabold font-serif " href="{{ route('dashboard') }}">@yield('title', 'To Do List')</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
             @guest
-            <div class="navbar-nav ms-auto">
+            <div class="navbar-nav ms-auto text-lg font-semibold ">
                 <a class="nav-link active" href="/register">Register</a>
 
                 @endguest
