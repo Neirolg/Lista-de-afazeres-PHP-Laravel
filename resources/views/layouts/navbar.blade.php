@@ -26,6 +26,8 @@
                 @auth
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" href="/dashboard">Dashboard</a>
+                    <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="/todos">To Dos</a>
                     <form action="/logout" method="POST">
 
                         @csrf

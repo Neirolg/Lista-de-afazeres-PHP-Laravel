@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CalenderController;
+use App\Http\Controllers\TodoController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,3 +31,7 @@ Route::middleware([
 Route::get('calendar-event', [CalenderController::class, 'index']);
 Route::post('calendar-crud-ajax', [CalenderController::class, 'calendarEvents']);
 
+Route::get('/todos', [TodoController::class, 'index']);
+Route::post('/todos', [TodoController::class, 'addTodo']);
+Route::put('/{todo}', [TodoController::class, 'update']);
+Route::delete('/{todo}', [TodoController::class, 'delete']);
