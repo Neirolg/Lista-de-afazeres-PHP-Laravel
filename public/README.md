@@ -60,11 +60,11 @@ aa
 
 - Scrum
 
-[scrum](doc/scrum/scrum_00.md)
+[scrum](grupo/doc/scrum/scrum_00.md)
 
 - Kanban
 
-[kanban](doc/scrum/kanban/kanban00.md)
+[kanban](grupo/doc/scrum/kanban/kanban00.md)
 
 # ALUNOS
 
@@ -99,7 +99,7 @@ aa
 [![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelvin.kamchen@hotmail.com)  
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KelvinKamchen)  
 
-* Luis
+* Luis Paulo da Silva
 
  [![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5548984813409)   
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-paulo-da-silva-154b564b/)  
@@ -139,6 +139,13 @@ aa
 4 - utilizar banco de dados na nuvem ( ainda não ). Neste momento vão utilizar um controller como falamos em sala. 
 5 - criar um form em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
 6 - criar um list em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
+
+## 23/09/2022 
+Feito o primeiro scrum oficial do grupo.
+No dia anterior. Kelvin, Eduardo e Sergio criaram uma logo e conseguiram  modificar a formatação de alguns arquivos.
+Honald e Luis criaram um calendário no site que marca as tarefas, porém ele não está 100% funcional.
+No dia de hoje: Frontend continuará formatando a página. Backend fará continuação das funcionalidades.<br>
+
 
 
 
