@@ -1,6 +1,7 @@
 @include('layouts.navbar')
 
 <x-guest-layout>
+    <div class="-my-20">
     <x-jet-authentication-card>
         <x-slot name="logo">
         <img src="{{ asset('/logo/todolist230x90.png') }}" />
@@ -59,4 +60,5 @@
             </div>
         </form>
     </x-jet-authentication-card>
+    </div>
 </x-guest-layout>

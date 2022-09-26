@@ -49,4 +49,5 @@
             </div>
         </form>
     </x-jet-authentication-card>
+    </div>
 </x-guest-layout>
