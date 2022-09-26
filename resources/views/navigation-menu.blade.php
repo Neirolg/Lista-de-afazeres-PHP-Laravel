@@ -1,12 +1,12 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+<nav x-data="{ open: false }" class="bg-sky-700 border-b border-gray-100">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                    <img src="{{ asset('/logo/todolist140x60.png') }}" />  
+                    <img src="{{ asset('/logo/todolist140x60branco.png') }}" />  
                     </a>
                 </div>
 
@@ -99,6 +99,10 @@
                                 {{ __('Profile') }}
                             </x-jet-dropdown-link>
 
+                            <x-jet-dropdown-link href="{{ route('home.about') }}">
+                                {{ __('About') }}
+                            </x-jet-dropdown-link>
+
                             @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                                 <x-jet-dropdown-link href="{{ route('api-tokens.index') }}">
                                     {{ __('API Tokens') }}
@@ -160,7 +164,7 @@
                 <!-- Account Management -->
                 <x-jet-responsive-nav-link href="{{ route('profile.show') }}" :active="request()->routeIs('profile.show')">
                     {{ __('Profile') }}
-                </x-jet-responsive-nav-link>
+                </x-jet-responsive-nav-link>             
 
                 @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                     <x-jet-responsive-nav-link href="{{ route('api-tokens.index') }}" :active="request()->routeIs('api-tokens.index')">

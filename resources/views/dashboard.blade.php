@@ -1,4 +1,3 @@
-@include('layouts.navbar')
 
 <x-app-layout>
     
