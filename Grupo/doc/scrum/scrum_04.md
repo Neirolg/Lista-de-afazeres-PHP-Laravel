@@ -9,4 +9,3 @@ Será desenvolvido em linguagem de PHP, HTML, MySQL, CCS, SQLite, Javascript e L
 
 # Desenho do projeto embrionário
 
-- [Organomragra        ](doc/embriao/organograma.jpeg)

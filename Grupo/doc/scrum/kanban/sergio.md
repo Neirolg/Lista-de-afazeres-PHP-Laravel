@@ -2,27 +2,13 @@
 
 ## Sprint 01
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- Pesquisa 
-
 * CONCLUÍDO
-- Definição do Projeto
 
+- Definição do Projeto
 
 # ############
 
 ## Sprint 02
-
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
 
 * CONCLUÍDO
 - 
@@ -31,26 +17,12 @@
 
 ## Sprint 03
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
 - 
 
 # ############
 
-## Sprint 04
-
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
+## Sprint 04 
 
 * CONCLUÍDO
 - 
@@ -59,40 +31,24 @@
 
 ## Sprint 05
 
-# ############
-* A FAZER
- - 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+
+- Instalação da ferramenta Laravel 
 
 # ############
 
 ## Sprint 06
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+
+- Criação dos menus (rotas ainda não só os menus no navbar) para as principais controllers/views existentes no projeto. 
+  - adicionar tarefas
+  - listar tarefas 
+  - admin (cadastrar usuarios) 
 
 # ############
 
 ## Sprint 07
-
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
 
 * CONCLUÍDO
 - 
@@ -102,25 +58,14 @@
 ## Sprint 08
 
 # ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
 
 * CONCLUÍDO
-- 
+
+- Instalação do Node e laravel/jetstream. 
 
 # ############
 
 ## Sprint 09
-
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
 
 * CONCLUÍDO
 - 
@@ -128,13 +73,6 @@
 # ############
 
 ## Sprint 10
-
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
 
 * CONCLUÍDO
 - 

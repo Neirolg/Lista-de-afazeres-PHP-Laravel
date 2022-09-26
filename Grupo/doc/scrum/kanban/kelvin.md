@@ -2,14 +2,8 @@
 
 ## Sprint 01
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- Pesquisa 
-
 * CONCLUÍDO
+
 - Definição do Projeto
 - Criação do repositório Git
 
@@ -34,82 +28,52 @@
 
 ## Sprint 05
 
-# ############
-* A FAZER
- - 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+
+- Instalação da ferramenta Laravel 
 
 # ############
 
 ## Sprint 06
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+
+- Criação dos menus (rotas ainda não só os menus no navbar) para as principais controllers/views existentes no projeto. 
+  - adicionar tarefas
+  - listar tarefas 
+  - admin (cadastrar usuarios) 
 
 # ############
 
 ## Sprint 07
 
-# ############
-* A FAZER
-- 
+* CONCLUÍDO
 
-* EM ANDAMENTO
-- 
+- Criação um form em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
+
+- Criação de um list em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css) 
+
+# ############
+
+## Sprint 08 
 
 * CONCLUÍDO
-- 
 
-# ############
+- Criaçao da logomarca e modificação da formatação de alguns arquivos.
 
-## Sprint 08
-
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
-* CONCLUÍDO
-- 
+- Instalação do Node e laravel/jetstream.
 
 # ############
 
 ## Sprint 09
 
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
-
 * CONCLUÍDO
-- 
+
+- Formatação da View About, espaçamento da View Login e tela de fundo no Layout. 
 
 # ############
 
 ## Sprint 10
-
-# ############
-* A FAZER
-- 
-
-* EM ANDAMENTO
-- 
 
 * CONCLUÍDO
 - 

@@ -12,18 +12,6 @@
 
 # ADRIANA 
 
-## Sprint 01
-
-- Criação da documentação do projeto.
-
-## Sprint 02
-
-- Pesquisas do projeto.
-
-## Sprint 03
-
-- Criação história do usuário.
-
 Kanban individual disponível em:
 [ADRIANA](kanban/adriana.md)
 
@@ -31,18 +19,6 @@ Kanban individual disponível em:
 # #######################
 
 # EDUARDO
-
-
-## Sprint 01
-
-# ############
-* A FAZER
-
-
-* EM ANDAMENTO
-
-
-* CONCLUÍDO
 
 
 Kanban individual disponível em:
@@ -54,36 +30,12 @@ Kanban individual disponível em:
 # HONALD
 
 
-## Sprint 01
-
-# ############
-* A FAZER
-
-
-* EM ANDAMENTO
-
-
-* CONCLUÍDO
-
-
 Kanban individual disponível em:
 [HONALD](kanban/honald.md)
 
 # #######################
 
 # KELVIN
-
-
-## Sprint 01
-
-# ############
-* A FAZER
-
-
-* EM ANDAMENTO
-
-
-* CONCLUÍDO
 
 
 Kanban individual disponível em:
@@ -95,18 +47,6 @@ Kanban individual disponível em:
 # LUIS
 
 
-## Sprint 01
-
-# ############
-* A FAZER
-
-
-* EM ANDAMENTO
-
-
-* CONCLUÍDO
-
-
 Kanban individual disponível em:
 [LUIS](kanban/luis.md)
 
@@ -114,15 +54,6 @@ Kanban individual disponível em:
 # #######################
 
 # SERGIO
-
-
-## Sprint 01
-
-# ############
-* A FAZER
-
-
-* EM ANDAMENTO
 
 
 * CONCLUÍDO
