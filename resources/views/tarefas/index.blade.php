@@ -1,4 +1,4 @@
-@extends("layouts.navbar")
+@include("layouts.navbar")
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -12,12 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Tailwindcss -->
-    <link href="https://unpkd.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
     <link href="https://unpkg.com/tailwindcss@^2.2.7/dist/tailwind.min.css" rel="stylesheet">
 
 </head>
 
-<body class="bg-gray-200 p-4">
+
     <div class="lg:w-2/4 mx-auto py-8 px-6 bg-white rounded-xl">
 
         <h1 class="font-bold text-5xl text-center mb-8">Todoist Laravel</h1>
@@ -68,6 +68,6 @@
             @endforeach
         </div>
     </div>
-</body>
+
 
 </html>
