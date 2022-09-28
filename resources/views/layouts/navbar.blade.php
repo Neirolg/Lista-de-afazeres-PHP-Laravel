@@ -19,7 +19,7 @@
 
             @guest
             <div class="navbar-nav ms-auto text-lg font-semibold ">
-                <a class="nav-link active" href="/register">Cadastrar</a>
+                <a class="nav-link active" href="/register">Register</a>
 
                 @endguest
                 
@@ -30,12 +30,12 @@
 
                         @csrf
                         
-                            <a href="/logout" class="nav-link" onclick="event.preventDefault(); this.closest('form').submit();">Sair</a>
+                            <a href="/logout" class="nav-link" onclick="event.preventDefault(); this.closest('form').submit();">Log out</a>
                      
                     </form>
                     @endauth
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" href="/about">Sobre</a>
+                        <a class="nav-link active" href="/about">About</a>
 
                     </div>
                 </div>

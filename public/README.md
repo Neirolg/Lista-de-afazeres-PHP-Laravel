@@ -1,12 +1,13 @@
 <!doctype html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="readme.css">
+  </head>
 
   <body>
 
-<br>
-<br>
-<div style="text-align:center;">
+<div class="tituloPrincipal">
   <h2>Entra21 - Turma PHP - Grupo 03</h2>
   <br> <br>
   <h1>  LISTA DE AFAZERES </h1>
@@ -14,7 +15,7 @@
   <br> <br>
 </div>
 
-<div style="margin-top: 5px; margin-bottom: 5px; margin-left: 80px; margin-right: 80px;">
+
 <h3> OBJETIVO </h3>
 
 <ul>
@@ -147,7 +148,7 @@
     <dd>adriano@machado.tec.br | +55 67 9 9263-6781 </dd>
 </dl>
 
-</div>
+  </footer>
 
 <!-- 12/09/2022
 

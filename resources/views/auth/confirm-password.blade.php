@@ -5,7 +5,7 @@
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            {{ __('Essa é uma área segura da aplicação. Por favor, confirme sua senha antes de continuar.') }}
+            {{ __('This is a secure area of the application. Please confirm your password before continuing.') }}
         </div>
 
         <x-jet-validation-errors class="mb-4" />
