@@ -6,13 +6,6 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
-    {
-        $viewData = [];
-        $viewData["title"] = "To Do List";
-        return view('home.index')->with("viewData", $viewData);
-    }
-
     public function about()
     {
         $viewData = [];
