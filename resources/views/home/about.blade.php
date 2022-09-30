@@ -1,6 +1,7 @@
 @include('layouts.navbar')
 
 <x-guest-layout>
+
 <html>
 <br>
 <style>
