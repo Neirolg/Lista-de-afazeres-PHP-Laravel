@@ -19,7 +19,7 @@
 
             @guest
             <div class="navbar-nav ms-auto text-lg font-semibold ">
-                <a class="nav-link active" href="/register">Register</a>
+                <a class="nav-link active" href="/register">Cadastrar</a>
 
                 @endguest
                 
@@ -35,7 +35,7 @@
                     </form>
                     @endauth
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" href="/about">About</a>
+                        <a class="nav-link active" href="/about">Sobre</a>
 
                     </div>
                 </div>

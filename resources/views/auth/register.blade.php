@@ -1,6 +1,6 @@
 @include('layouts.navbar')
 
-<x-navbar-layout>
+<x-guest-layout>
     <div class="-my-20">
     <x-jet-authentication-card>
         <x-slot name="logo">
@@ -61,4 +61,4 @@
         </form>
     </x-jet-authentication-card>
     </div>
-</x-navbar-layout>
+</x-guest-layout>
