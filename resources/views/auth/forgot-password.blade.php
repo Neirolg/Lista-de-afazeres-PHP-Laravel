@@ -1,11 +1,14 @@
+@include('layouts.navbar')
+
 <x-guest-layout>
+    <div class="-my-20">
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+        <img src="{{ asset('/logo/todolist230x90.png') }}" />
         </x-slot>
 
-        <div class="mb-4 text-sm text-gray-600">
-            {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+        <div class="mb-4 text-sm text-gray-600 text-justify">
+            {{ __('Esqueceu sua senha? Não tem problemas. Apenas nos informe seu endereço de email e nós o enviaremos um link para redefinir sua senha e o permitirá escolher uma nova.') }}
         </div>
 
         @if (session('status'))
@@ -26,9 +29,10 @@
 
             <div class="flex items-center justify-end mt-4">
                 <x-jet-button>
-                    {{ __('Email Password Reset Link') }}
+                    {{ __('Enviar Email') }}
                 </x-jet-button>
             </div>
         </form>
     </x-jet-authentication-card>
+    </div>
 </x-guest-layout>
