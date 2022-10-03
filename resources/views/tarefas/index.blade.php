@@ -1,12 +1,17 @@
-@include("layouts.navbar")
+@include('navigation-menu')
+<x-guest-layout>
+
+<div class="min-h-screen bg-[url('/public/background.png')]">
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
+    
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">    
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>To Do List</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -20,20 +25,19 @@
 
     <div class="lg:w-2/4 mx-auto py-8 px-6 bg-white rounded-xl">
 
-        <h1 class="font-bold text-5xl text-center mb-8">Todoist Laravel</h1>
+        <h1 class="font-bold text-5xl text-center mb-8">Suas Tarefas</h1>
         <div class="mb-6">
             <form class="flex flex-col space-y-4" method="POST" action="/todos">
                 @csrf
-                <input type="text" name="title" placeholder="Title" class="py-3 px-4 bg-gray-100 rounded-xl" />
-                <textarea name="description" placeholder="Description" class="py-3 px-4 bg-gray-100 rounded-xl"></textarea>
-                <button class="w-28 py-4 px-8 bg-green-500 text-white rounded-xl">Add</button>
+                <input type="text" name="title" placeholder="Título da tarefa" class="py-3 px-4 bg-gray-100 rounded-xl" />
+                <textarea name="description" placeholder="Descrição da tarefa" class="py-3 px-4 bg-gray-100 rounded-xl"></textarea>
+                <button class="w-28 py-4 bg-green-500 text-white rounded-xl">Adicionar</button>
             </form>
         </div>
         <hr />
         <div class="mt-2 ">
             @foreach ($todos as $todo)
-                <div @class([
-                    'py-4 flex items-center border-b border-gray-300 px-3',
+                <div @class(['py-4 flex items-center border-b border-gray-300 px-3',
                     $todo->isComplete ? 'bg-green-200 rounded-md' : '',
                 ])>
                     <div class="flex-1 pr-8">
@@ -71,3 +75,5 @@
 
 
 </html>
+
+</x-guest-layout>

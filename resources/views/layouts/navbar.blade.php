@@ -30,7 +30,7 @@
 
                         @csrf
                         
-                            <a href="/logout" class="nav-link" onclick="event.preventDefault(); this.closest('form').submit();">Log out</a>
+                            <a href="/logout" class="nav-link active" onclick="event.preventDefault(); this.closest('form').submit();">Sair</a>
                      
                     </form>
                     @endauth
