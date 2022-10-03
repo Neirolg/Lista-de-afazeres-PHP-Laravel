@@ -20,24 +20,28 @@
             @guest
             <div class="navbar-nav ms-auto">
                 <a class="nav-link active" href="/register">Cadastrar</a>
+
+                @endguest
+
+                @auth
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" href="/about">About</a>
-                    @endguest
-                    @auth
+                    <a class="nav-link active" href="/dashboard">Dashboard</a>
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" href="/dashboard">Dashboard</a>
-                        <form action="/logout" method="POST">
-                            <div class="navbar-nav ms-auto">
-                                <a class="nav-link active" href="/about">About</a>
-                                @csrf
-                                <a href="/logout" class="nav-link" onclick="event.preventDefault();
-        this.closest('form').submit();">
-                                    Sair
-                                </a>
-                        </form>
-                        @endauth
+                    <a class="nav-link active" href="/todos">To Dos</a>
+                    <form action="/logout" method="POST">
+
+                        @csrf
+                        
+                            <a href="/logout" class="nav-link active" onclick="event.preventDefault(); this.closest('form').submit();">Sair</a>
+                     
+                    </form>
+                    @endauth
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" href="/about">About</a>
 
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 </nav>
