@@ -102,7 +102,7 @@
                             <x-jet-dropdown-link href="{{ route('home.about') }}">
                                 {{ __('About') }}
                             </x-jet-dropdown-link>
-
+                            
                             @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                                 <x-jet-dropdown-link href="{{ route('api-tokens.index') }}">
                                     {{ __('API Tokens') }}

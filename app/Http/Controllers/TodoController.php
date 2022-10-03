@@ -26,18 +26,18 @@ class TodoController extends Controller
 
         Todo::create($body);
 
-        return redirect('/todos');
+        return redirect('/dashboard');
     }
 
     public function update(Todo $todo)
     {
         $todo->update(['isComplete' => true]);
-        return redirect('/todos');
+        return redirect('/dashboard');
     }
     
     public function delete(Todo $todo)
     {
         $todo->delete();
-        return redirect('/todos');
+        return redirect('/dashboard');
     }
 }

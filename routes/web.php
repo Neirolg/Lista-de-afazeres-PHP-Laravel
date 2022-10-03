@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CalenderController;
 use App\Http\Controllers\TodoController;
@@ -30,7 +30,7 @@ Route::middleware([
 });
 
 
-Route::get('/todos', [TodoController::class, 'index']);
-Route::post('/todos', [TodoController::class, 'addTodo']);
-Route::put('/{todo}', [TodoController::class, 'update']);
-Route::delete('/{todo}', [TodoController::class, 'delete']);
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('todo', 'App\Http\Controllers\TodosController');
+
