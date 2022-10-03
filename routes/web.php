@@ -28,8 +28,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-Route::get('calendar-event', [CalenderController::class, 'index']);
-Route::post('calendar-crud-ajax', [CalenderController::class, 'calendarEvents']);
+
 
 Route::get('/todos', [TodoController::class, 'index']);
 Route::post('/todos', [TodoController::class, 'addTodo']);
