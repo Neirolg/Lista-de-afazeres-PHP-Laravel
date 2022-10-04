@@ -9,7 +9,7 @@
                     Edit {{ $todo->title }}
                 </div>
                 <h5 class="card-header">
-                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Go Back</a>
+                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Voltar</a>
                 </h5>
 
                 <div class="card-body">
@@ -36,7 +36,7 @@
                         @method('PUT')
 
                         <div class="form-group row">
-                            <label for="title" class="col-form-label text-md-right">Title</label>
+                            <label for="title" class="col-form-label text-md-right">Tarefa</label>
 
                                 <input id="title" type="title" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ $todo->title }}" required autocomplete="title" autofocus>
 
@@ -48,17 +48,27 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="description" class="col-form-label text-md-right">Description</label>
+                            <label for="description" class="col-form-label text-md-right">Descrição</label>
 
                                 <textarea name="description" id="description" cols="30" rows="10" class="form-control @error('password') is-invalid @enderror" autocomplete="description" value="{{ $todo->description }}">{{ $todo->description }}</textarea>
 
-                                @error('description')
+                                @error('Descrição')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
                         </div>
+                        <div class="form-group row">
+                            <label for="people" class="col-form-label text-md-right">Pessoas</label>
 
+                            <input id="people" type="people" class="form-control @error('people') is-invalid @enderror" name="people" value="{{ $todo->people }}" required autocomplete="pessoas" autofocus>
+
+                            @error('people')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
                         <div class="form-group row">
                             <div class="">
                                 <div class="form-check">
@@ -69,7 +79,7 @@
                                     @endif
 
                                     <label class="form-check-label" for="completed">
-                                        Completed?
+                                        Terminada?
                                     </label>
                                 </div>
                             </div>
@@ -78,7 +88,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-success">
-                                    Submit
+                                    Salvar
                                 </button>
                             </div>
                         </div>

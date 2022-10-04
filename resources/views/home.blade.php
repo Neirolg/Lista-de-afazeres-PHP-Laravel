@@ -8,7 +8,7 @@
                     {{ __('Dashboard') }}
                 </div>
                 <h5 class="card-header">
-                    <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Add Item</a>
+                    <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Adicionar Tarefa</a>
                 </h5>
                 <div class="card-body">
                     @if (session('status'))

@@ -45,12 +45,14 @@ class TodosController extends Controller
         $this->validate($request, [
             'title' => 'required|string|max:255',
             'description' => 'nullable|string',
+            'people' => 'nullable|string',
             'completed' => 'nullable',
         ]);
 
         $todo = new Todo;
         $todo->title = $request->input('title');
         $todo->description = $request->input('description');
+        $todo->people = $request->input('people');
 
         if($request->has('completed')){
             $todo->completed = true;
@@ -99,12 +101,14 @@ class TodosController extends Controller
         $this->validate($request, [
             'title' => 'required|string|max:255',
             'description' => 'nullable|string',
+            'people' => 'nullable|string',
             'completed' => 'nullable',
         ]);
 
         $todo = Todo::where('id', $id)->where('user_id', Auth::user()->id)->firstOrFail();
         $todo->title = $request->input('title');
         $todo->description = $request->input('description');
+        $todo->people = $request->input('people');
 
         if($request->has('completed')){
             $todo->completed = true;

@@ -6,10 +6,10 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    Add Todo Item
+                    Adicionar Tarefa
                 </div>
                 <h5 class="card-header">
-                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Go Back</a>
+                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Voltar</a>
                 </h5>
 
                 <div class="card-body">
@@ -57,7 +57,17 @@
                                 </span>
                             @enderror
                         </div>
+                        <div class="form-group row">
+                            <label for="people" class="col-form-label text-md-right">Pessoas</label>
 
+                            <input id="people" type="people" class="form-control @error('people') is-invalid @enderror" name="people" value="{{ old('email') }}" required autocomplete="pessoas" autofocus>
+
+                            @error('people')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
                         <div class="form-group row">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" name="completed" id="completed" value="{{ old('completed')}}">
