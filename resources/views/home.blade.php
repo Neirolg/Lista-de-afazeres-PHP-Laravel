@@ -1,14 +1,15 @@
+@include('navigation-menu')
 
-@include('layouts.app')
+<x-guest-layout>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    {{ __('Dashboard') }}
+            <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Suas Tarefas</h1>
                 </div>
                 <h5 class="card-header">
-                    <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Add Item</a>
+                    <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Adicionar tarefa</a>
                 </h5>
                 <div class="card-body">
                     @if (session('status'))
@@ -35,12 +36,6 @@
                     @endif
 
                     <table class="table table-borderless table-hover">
-                        <thead>
-                          <tr>
-                            <th scope="col">Item</th>
-                            <th scope="col"></th>
-                          </tr>
-                        </thead>
                         <tbody>
                             @forelse ($todos as $todo)
                                 <tr>
@@ -50,13 +45,13 @@
                                         <td scope="row"><a href="{{ route('todo.edit', $todo->id) }}" style="color: black">{{ $todo->title }}</a></td>
                                     @endif
                                     <td>
-                                        <a href="{{ route('todo.edit', $todo->id) }}" class="btn btn-sm btn-outline-success"><i class="fa fa-pencil-square-o"></i></a>
-                                        <a href="{{ route('todo.show', $todo->id) }}" class="btn btn-sm btn-outline-danger"><i class="fa fa-trash"></i></a>
+                                        <a href="{{ route('todo.edit', $todo->id) }}" class="btn btn-sm btn-outline-success"><i class="fa fa-pencil-square-o"></i> Editar</a>
+                                        <a href="{{ route('todo.show', $todo->id) }}" class="btn btn-sm btn-outline-danger"><i class="fa fa-trash"></i> Excluir</a>
                                     </td>
                                 </tr>
                             @empty
                                 <tr>
-                                    No Items Added!
+                                    Nenhuma tarefa
                                 </tr>
                             @endforelse
                         </tbody>
@@ -67,3 +62,4 @@
     </div>
 </div>
 
+</x-guest-layout>

@@ -1,15 +1,14 @@
-@extends('layouts.app')
+@include('navigation-menu')
 
-@section('content')
+<x-guest-layout>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">
-                    Edit {{ $todo->title }}
+            <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Crie sua tarefa</h1>
                 </div>
                 <h5 class="card-header">
-                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Go Back</a>
+                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Voltar</a>
                 </h5>
 
                 <div class="card-body">
@@ -37,17 +36,17 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-12">
                                 <h3>
-                                    Are you sure you want to delete {{ $todo->title }}?
+                                    Você tem certeza que quer deletar esta tarefa?
                                 </h3>
                             </div>
                         </div>
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-danger">
-                                    Yes
+                                <button type="submit" class="btn btn-outline-danger">
+                                    Sim
                                 </button>
-                                <a href="{{ route('todo.index') }}" class="btn btn-info">No</a>
+                                <a href="{{ route('todo.index') }}" class="btn btn-outline-primary">Não</a>
                             </div>
                         </div>
                     </form>
@@ -57,4 +56,5 @@
         </div>
     </div>
 </div>
-@endsection
+
+</x-guest-layout>

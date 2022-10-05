@@ -1,15 +1,15 @@
-@extends('layouts.app')
+@include('navigation-menu')
 
-@section('content')
+<x-guest-layout>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">
-                    Add Todo Item
-                </div>
+           
+                <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Crie sua tarefa</h1>
+                
                 <h5 class="card-header">
-                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Go Back</a>
+                    <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Voltar</a>
                 </h5>
 
                 <div class="card-body">
@@ -35,7 +35,7 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="title" class="col-form-label text-md-right">Title</label>
+                            <label for="title" class="col-form-label text-md-right">Título</label>
 
                             <input id="title" type="title" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('email') }}" required autocomplete="title" autofocus>
 
@@ -47,7 +47,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="description" class="col-form-label text-md-right">Description</label>
+                            <label for="description" class="col-form-label text-md-right">Descrição</label>
 
                             <textarea name="description" id="description" cols="30" rows="10" class="form-control @error('password') is-invalid @enderror" autocomplete="description" value="{{ old('description') }}"></textarea>
 
@@ -70,8 +70,8 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    Submit
+                                <button type="submit" class="btn btn-outline-success">
+                                    Salvar
                                 </button>
                             </div>
                         </div>
@@ -82,4 +82,5 @@
         </div>
     </div>
 </div>
-@endsection
+
+</x-guest-layout>
