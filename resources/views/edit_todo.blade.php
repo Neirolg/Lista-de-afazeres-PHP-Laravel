@@ -1,19 +1,20 @@
 @include('navigation-menu')
 
 <x-guest-layout>
-<div class ="min-h-screen bg-[url('/public/fundo.png')]">
+<div class ="min-h-screen bg-[url('/public/background.png')]">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card">
+                <div class="card shadow-md  ">
                     <div class="card-header">
                     <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Edite sua tarefa</h1>
                     </div>
-                    <h5 class="card-header">
+
+                    <h5 class="card-header bg-gray-50">
                         <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Voltar</a>
                     </h5>
 
-                    <div class="card-body">
+                    <div class="card-body mx-2">
 
                         @if ($errors->any())
                             <div class="alert alert-danger">
@@ -61,7 +62,7 @@
                             </div>
 
                             <div class="form-group row">
-                                <div class="">
+                                <div class="mx-2">
                                     <div class="form-check">
                                         @if ($todo->completed)
                                             <input class="form-check-input" type="checkbox" name="completed" id="completed" value="{{ $todo->completed }}" checked>
@@ -70,15 +71,15 @@
                                         @endif
 
                                         <label class="form-check-label" for="completed">
-                                            Completed?
+                                            Concluída?
                                         </label>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="form-group row mb-0">
-                                <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-outline-success">
+                                <div class="col-md-8 offset-md-4 text-right">
+                                    <button type="submit" class="btn btn-outline-success ">
                                         Salvar
                                     </button>
                                 </div>

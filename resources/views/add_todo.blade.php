@@ -4,15 +4,15 @@
 <div class ="min-h-screen bg-[url('/public/background.png')]  ">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-8 ">
             
-                    <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Crie sua tarefa</h1>
+                    <h1 class="font-bold text-5xl py-3 text-sky-700 text-center pb-2 bg-gray-200 ">Crie sua tarefa</h1>
                     
-                    <h5 class="card-header">
-                        <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Voltar</a>
+                    <h5 class="card-header bg-gray-100">
+                        <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary "><i class="fa fa-arrow-left"></i> Voltar</a>
                     </h5>
 
-                    <div class="card-body">
+                    <div class="card-body bg-gray-50">
 
                         @if ($errors->any())
                             <div class="alert alert-danger">

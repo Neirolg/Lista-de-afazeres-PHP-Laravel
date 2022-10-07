@@ -1,7 +1,7 @@
 @include('navigation-menu')
 
 <x-guest-layout>
-<div class ="min-h-screen bg-[url('/public/fundo.png')]">
+<div class ="min-h-screen bg-[url('/public/background.png')]">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
