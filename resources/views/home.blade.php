@@ -1,11 +1,13 @@
-
 @include('layouts.app')
+<?php use App\Http\Controllers\TodosController;
+echo TodosController::calendar(); ?>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    {{ __('Dashboard') }}
+                    {{ __('Tarefas') }}
                 </div>
                 <h5 class="card-header">
                     <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Adicionar Tarefa</a>
@@ -37,8 +39,9 @@
                     <table class="table table-borderless table-hover">
                         <thead>
                           <tr>
-                            <th scope="col">Item</th>
-                            <th scope="col"></th>
+                            <th scope="col">Tarefas</th>
+                            <th scope="col">Criada em</th>
+                            <th scope="col">Editar ou Excluir</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -46,8 +49,11 @@
                                 <tr>
                                     @if ($todo->completed)
                                         <td scope="row"><a href="{{ route('todo.edit', $todo->id) }}" style="color: black"><s>{{ $todo->title }}</s></a></td>
+                                        <td>{{$todo->created_at->format('D - d/m/Y - H:i:s')}}</td>
                                     @else
                                         <td scope="row"><a href="{{ route('todo.edit', $todo->id) }}" style="color: black">{{ $todo->title }}</a></td>
+                                  
+                                        <td>{{$todo->created_at->format('D - d/m/Y - H:i:s')}}</td>
                                     @endif
                                     <td>
                                         <a href="{{ route('todo.edit', $todo->id) }}" class="btn btn-sm btn-outline-success"><i class="fa fa-pencil-square-o"></i></a>

@@ -6,6 +6,7 @@ use App\Models\Todo;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Carbon;
 
 class TodosController extends Controller
 {
@@ -53,7 +54,7 @@ class TodosController extends Controller
         $todo->title = $request->input('title');
         $todo->description = $request->input('description');
         $todo->people = $request->input('people');
-
+        $todo->timestamps = $request->input('timestamps()');
         if($request->has('completed')){
             $todo->completed = true;
         }
@@ -62,7 +63,7 @@ class TodosController extends Controller
 
         $todo->save();
 
-        return back()->with('success', 'Item created successfully');
+        return back()->with('success', 'Tarefa criada com sucesso');
     }
 
     /**
@@ -109,6 +110,7 @@ class TodosController extends Controller
         $todo->title = $request->input('title');
         $todo->description = $request->input('description');
         $todo->people = $request->input('people');
+        $todo->timestamps = $request->input('timestamps()');
 
         if($request->has('completed')){
             $todo->completed = true;
@@ -118,7 +120,7 @@ class TodosController extends Controller
 
         $todo->save();
 
-        return back()->with('success', 'Item updated successfully');
+        return back()->with('sucess', 'Tarefa atualizada com sucesso');
     }
 
     /**
@@ -131,6 +133,37 @@ class TodosController extends Controller
     {
         $todo = Todo::where('id', $id)->where('user_id', Auth::user()->id)->firstOrFail();
         $todo->delete();
-        return redirect()->route('todo.index')->with('success', 'Item deleted successfully');
+        return redirect()->route('todo.index')->with('sucess', 'Tarefa apagada com sucesso');
     }
-}
+    public static function calendar($date = null)
+{
+    $date = empty($date) ? Carbon::now() : Carbon::createFromDate($date);
+    $startOfCalendar = $date->copy()->firstOfMonth()->startOfWeek(Carbon::SUNDAY);
+    $endOfCalendar = $date->copy()->lastOfMonth()->endOfWeek(Carbon::SATURDAY);
+
+    $html = '<div class="calendar">';
+
+    $html .= '<div class="month-year">';
+    $html .= '<span class="month">' . $date->format('M') . '</span>';
+    $html .= '<span class="year">' . $date->format('Y') . '</span>';
+    $html .= '</div>';
+
+    $html .= '<div class="days">';
+
+    $dayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    foreach ($dayLabels as $dayLabel)
+    {
+        $html .= '<span class="day-label">' . $dayLabel . '</span>';
+    }
+
+    while($startOfCalendar <= $endOfCalendar)
+    {
+        $extraClass = $startOfCalendar->format('m') != $date->format('m') ? 'dull' : '';
+        $extraClass .= $startOfCalendar->isToday() ? ' today' : '';
+
+        $html .= '<span class="day '.$extraClass.'"><span class="content">' . $startOfCalendar->format('j') . '</span></span>';
+        $startOfCalendar->addDay();
+    }
+    $html .= '</div></div>';
+    return $html;
+}}
