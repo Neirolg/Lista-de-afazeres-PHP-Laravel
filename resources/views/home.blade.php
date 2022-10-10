@@ -8,9 +8,7 @@ echo TodosController::calendar(); ?>
     <div class="row justify-content-center">
         <div class="col-md-8 my-10">
             <div class="card">
-                <div class="card-header">
-                    {{ __('Tarefas') }}
-                </div>
+            <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Suas tarefas</h1>
                 <h5 class="card-header">
                     <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Adicionar Tarefa</a>
                 </h5>
