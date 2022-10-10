@@ -1,63 +1,69 @@
 @include('layouts.app')
 
+<x-guest-layout>
+<div class ="min-h-screen -my-12 bg-[url('/public/background.png')]  ">
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-8 my-10">
             <div class="card">
                 <div class="card-header">
-                    Edit {{ $todo->title }}
+                <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Edite sua tarefa</h1>
                 </div>
                 <h5 class="card-header">
                     <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Voltar</a>
                 </h5>
 
-                    <h5 class="card-header bg-gray-50">
-                        <a href="{{ route('todo.index') }}" class="btn btn-sm btn-outline-primary"><i class="fa fa-arrow-left"></i> Voltar</a>
-                    </h5>
+                <div class="card-body">
 
-                    <div class="card-body mx-2">
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
 
-                        @if ($errors->any())
-                            <div class="alert alert-danger">
-                                <ul>
-                                    @foreach ($errors->all() as $error)
-                                        <li>{{ $error }}</li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        @endif
+                    @if(session()->has('success'))
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert">×</button>
+                            {{ session()->get('success') }}
+                        </div>
+                    @endif
 
-                        @if(session()->has('success'))
-                            <div class="alert alert-success">
-                                <button type="button" class="close" data-dismiss="alert">×</button>
-                                {{ session()->get('success') }}
-                            </div>
-                        @endif
-
-                        <div class="form-group row">
-                            <label for="title" class="col-form-label text-md-right">Tarefa</label>
-
-                            <div class="form-group row">
-                                <label for="title" class="col-form-label text-md-right">Título</label>
-
-                                    <input id="title" type="title" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ $todo->title }}" required autocomplete="title" autofocus>
+                    <form method="POST" action="{{ route('todo.update', $todo->id) }}">
+                        @csrf
+                        @method('PUT')
 
                         <div class="form-group row">
-                            <label for="description" class="col-form-label text-md-right">Descrição</label>
+                            <label for="title" class="col-form-label text-md-right">Título</label>
 
-                            <div class="form-group row">
-                                <label for="description" class="col-form-label text-md-right">Descrição</label>
+                                <input id="title" type="title" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ $todo->title }}" required autocomplete="title" autofocus>
 
-                                @error('Descrição')
+                                @error('title')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
                         </div>
+
                         <div class="form-group row">
+                            <label for="description" class="col-form-label text-md-right">Descrição</label>
+
+                                <textarea name="description" id="description" cols="30" rows="10" class="form-control @error('password') is-invalid @enderror" autocomplete="description" value="{{ $todo->description }}">{{ $todo->description }}</textarea>
+
+                                @error('description')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                        </div>
+			
+			<div class="form-group row">
                             <label for="people" class="col-form-label text-md-right">Pessoas</label>
 
-                            <input id="people" type="people" class="form-control @error('people') is-invalid @enderror" name="people" value="{{ $todo->people }}" required autocomplete="pessoas" autofocus>
+                            <input id="people" type="people" class="form-control @error('people') is-invalid @enderror" name="people" value="{{ old('email') }}" required autocomplete="pessoas" autofocus>
 
                             @error('people')
                                 <span class="invalid-feedback" role="alert">
@@ -65,6 +71,7 @@
                                 </span>
                             @enderror
                         </div>
+
                         <div class="form-group row">
                             <div class="">
                                 <div class="form-check">
@@ -75,23 +82,25 @@
                                     @endif
 
                                     <label class="form-check-label" for="completed">
-                                        Terminada?
+                                        Completed?
                                     </label>
                                 </div>
                             </div>
+                        </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-success">
+                            <div class="col-md-8 offset-md-4 text-right">
+                                <button type="submit" class="btn btn-outline-success">
                                     Salvar
                                 </button>
                             </div>
-                        </form>
-                        
-                    </div>
+                        </div>
+                    </form>
+                    
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+</x-guest-layout>

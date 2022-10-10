@@ -1,11 +1,12 @@
 @include('layouts.app')
-
+<div class ="min-h-screen -my-12 bg-[url('/public/background.png')]  ">
 <?php use App\Http\Controllers\TodosController;
 echo TodosController::calendar(); ?>
- 
+ <x-guest-layout>
+
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-8 my-10">
             <div class="card">
                 <div class="card-header">
                     {{ __('Tarefas') }}
@@ -74,4 +75,4 @@ echo TodosController::calendar(); ?>
     </div>
 </div>
 
-
+</x-guest-layout>
