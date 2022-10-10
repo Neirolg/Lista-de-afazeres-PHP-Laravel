@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8" />
@@ -25,8 +25,10 @@
                 
                 @auth
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" href="/dashboard">Dashboard</a>
+                    <a class="nav-link active" href="/dashboard">Tarefas</a>
                     <form action="/logout" method="POST">
+
+                    <a class="nav-link active" href="/Profile">Perfil</a>
 
                         @csrf
                         

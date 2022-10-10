@@ -44,7 +44,7 @@
                 @endif
 
                 <x-jet-button class="ml-4">
-                    {{ __('Log in') }}
+                    {{ __('Entrar') }}
                 </x-jet-button>
             </div>
         </form>
