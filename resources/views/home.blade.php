@@ -1,4 +1,4 @@
-@include('navigation-menu')
+@include('layouts.navbar')
 
 <x-guest-layout>
 <div class ="min-h-screen bg-[url('/public/background.png')]">

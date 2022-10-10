@@ -28,6 +28,8 @@
                     <a class="nav-link active" href="/dashboard">Tarefas</a>
                     <form action="/logout" method="POST">
 
+                    <a class="nav-link active" href="/Profile">Perfil</a>
+
                         @csrf
                         
                             <a href="/logout" class="nav-link active" onclick="event.preventDefault(); this.closest('form').submit();">Sair</a>
