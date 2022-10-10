@@ -1,7 +1,8 @@
 @include('layouts.app')
+
 <?php use App\Http\Controllers\TodosController;
 echo TodosController::calendar(); ?>
-
+ 
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -18,7 +19,7 @@ echo TodosController::calendar(); ?>
                             {{ session('status') }}
                         </div>
                     @endif
-
+ 
                         @if ($errors->any())
                             <div class="alert alert-danger">
                                 <ul>
@@ -28,14 +29,14 @@ echo TodosController::calendar(); ?>
                                 </ul>
                             </div>
                         @endif
-
+ 
                         @if(session()->has('success'))
                             <div class="alert alert-success">
                                 <button type="button" class="close" data-dismiss="alert">×</button>
                                 {{ session()->get('success') }}
                             </div>
                         @endif
-
+ 
                     <table class="table table-borderless table-hover">
                         <thead>
                           <tr>
@@ -52,7 +53,7 @@ echo TodosController::calendar(); ?>
                                         <td>{{$todo->created_at->format('D - d/m/Y - H:i:s')}}</td>
                                     @else
                                         <td scope="row"><a href="{{ route('todo.edit', $todo->id) }}" style="color: black">{{ $todo->title }}</a></td>
-                                  
+                                 
                                         <td>{{$todo->created_at->format('D - d/m/Y - H:i:s')}}</td>
                                     @endif
                                     <td>
@@ -72,4 +73,5 @@ echo TodosController::calendar(); ?>
         </div>
     </div>
 </div>
-</x-guest-layout>
+
+

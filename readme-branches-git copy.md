@@ -40,7 +40,7 @@ ele faz o seguinte:
 ### O ronald vai gerar uma release para fazer deploy
 
 1) git branch main
-2) git checktou -b release-1.2
+2) git checkout -b release-1.2
 3) git push origin release-1.2 
 
 
