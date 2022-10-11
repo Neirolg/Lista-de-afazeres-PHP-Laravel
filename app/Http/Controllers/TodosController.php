@@ -54,7 +54,7 @@ class TodosController extends Controller
         $todo->title = $request->input('title');
         $todo->description = $request->input('description');
         $todo->people = $request->input('people');
-        $todo->timestamps = $request->input('timestamps()');
+        // $todo->timestamps = $request->input('timestamps()');
         if($request->has('completed')){
             $todo->completed = true;
         }

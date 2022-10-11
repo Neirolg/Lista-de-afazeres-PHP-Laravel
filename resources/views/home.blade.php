@@ -52,8 +52,11 @@ echo TodosController::calendar(); ?>
                                         <td>{{$todo->created_at->format('D - d/m/Y - H:i:s')}}</td>
                                     @else
                                         <td scope="row"><a href="{{ route('todo.edit', $todo->id) }}" style="color: black">{{ $todo->title }}</a></td>
-                                 
-                                        <td>{{$todo->created_at->format('D - d/m/Y - H:i:s')}}</td>
+                                        @if ($todo->created_at)
+                                            <td>{{$todo->created_at->format('D - d/m/Y - H:i:s')}}</td>
+                                        @else
+                                            <td>xxxxxxxxxxxxx</td> 
+                                        @endif
                                     @endif
                                     <td>
                                         <a href="{{ route('todo.edit', $todo->id) }}" class="btn btn-sm btn-outline-success"><i class="fa fa-pencil-square-o"></i></a>
