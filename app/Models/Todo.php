@@ -14,4 +14,8 @@ class Todo extends Model
     {
         return $this->belongsTo(User::class);
     }
+    public function setCreatedAt($createdAt)
+    {
+        $this->attributes['created_at'] = $createdAt;
+    }
 }
