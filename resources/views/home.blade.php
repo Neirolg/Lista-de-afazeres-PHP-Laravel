@@ -46,8 +46,8 @@ $currentTime = time();
 </body>
 </html>
 <div class="container">
-    <div class="row justify-content-left">
-        <div class="col-md-8 my-10 inline">
+    <div class="row justify-content-center">
+        <div class="col-md-9 my-10 inline">
             <div class="card">
             <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Suas tarefas</h1>
                 <h5 class="card-header">

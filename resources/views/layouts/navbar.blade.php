@@ -16,31 +16,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-
-            @guest
             <div class="navbar-nav ms-auto text-lg font-semibold ">
-                <a class="nav-link active" href="/register">Cadastrar</a>
-
-                @endguest
-                
-                @auth
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" href="/dashboard">Tarefas</a>
-                    <form action="/logout" method="POST">
-
-                    <a class="nav-link active" href="/Profile">Perfil</a>
-
-                        @csrf
-                        
-                            <a href="/logout" class="nav-link active" onclick="event.preventDefault(); this.closest('form').submit();">Sair</a>
-                     
-                    </form>
-                    @endauth
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" href="/about">Sobre</a>
-
-                    </div>
-                </div>
+                <a class="nav-link active" href="/register">Cadastrar</a>                
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="/about">Sobre</a>
+            </div>
             </div>
         </div>
     </div>

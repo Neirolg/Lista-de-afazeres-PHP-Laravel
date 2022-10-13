@@ -10009,9 +10009,9 @@ h3 {
 
 .calendar {
   display: inline-flex;
-  margin-top: 200px;
-  left: 75%;
-  position: relative;
+  top: 75%;
+  left: 65%;
+  position: absolute;
   padding: 16px;
   margin: 0 auto;
   max-width: 320px;
@@ -10101,14 +10101,17 @@ body {
 
 .clock {
   position: absolute;
-  top: 18%;
-  left: 85%;
+  top: 80%;
+  left: 50%;
   transform: translateX(-50%) translateY(-50%);
   color: #2176bd;
   font-size: 60px;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 7px;
- 
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 10px;
 
 
 }
@@ -10116,9 +10119,12 @@ body {
 .report-container {
   position: absolute;
   display: flexbox;
-  text-align: center;
-  top: 25%;
-  left: 80%;
-
+  text-align: left;
+  top: 75%;
+  left: 15%;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 10px;
 }
 
