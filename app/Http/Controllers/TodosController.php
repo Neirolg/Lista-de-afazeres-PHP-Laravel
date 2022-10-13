@@ -137,6 +137,7 @@ class TodosController extends Controller
     }
     public static function calendar($date = null)
 {
+
     $date = empty($date) ? Carbon::now() : Carbon::createFromDate($date);
     $startOfCalendar = $date->copy()->firstOfMonth()->startOfWeek(Carbon::SUNDAY);
     $endOfCalendar = $date->copy()->lastOfMonth()->endOfWeek(Carbon::SATURDAY);
@@ -166,4 +167,5 @@ class TodosController extends Controller
     }
     $html .= '</div></div>';
     return $html;
+
 }}
