@@ -3,6 +3,9 @@
 <?php use App\Http\Controllers\TodosController;
 echo TodosController::calendar(); ?>
  <x-guest-layout>
+ <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+    
  <?php
 $apiKey = "39ff7f41625e6c64f5f90616924d959a";
 $cityId = "3469968";

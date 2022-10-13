@@ -10092,3 +10092,21 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+body {
+
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffe70a;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+ 
+
+
+}
