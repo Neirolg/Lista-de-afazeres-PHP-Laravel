@@ -10009,6 +10009,8 @@ h3 {
 
 .calendar {
   display: flex;
+  top: 10%;
+  left: 35%;
   position: relative;
   padding: 16px;
   margin: 0 auto;
@@ -10099,12 +10101,12 @@ body {
 
 .clock {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 55%;
+  left: 85%;
   transform: translateX(-50%) translateY(-50%);
-  color: #ffe70a;
+  color: #2176bd;
   font-size: 60px;
-  font-family: Orbitron;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 7px;
  
 
