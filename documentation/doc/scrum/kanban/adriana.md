@@ -1,9 +1,11 @@
-# HONALD
+# ADRIANA 
 
 ## Sprint 01
 
 * CONCLUÍDO
-- Definição do Projeto
+- Definição do projeto
+- Elaboração do Readme
+- Comitar 
 
 
 # ############
@@ -18,20 +20,24 @@
 ## Sprint 03
 
 * CONCLUÍDO
-- História do usuário
+
+- História do Usuário
 
 # ############
 
 ## Sprint 04
 
 * CONCLUÍDO
+
 - Desenho do projeto embrionário
 
+# ############
 
 ## Sprint 05
 
 * CONCLUÍDO
 
+- Elaboração do Organograma do Projeto  
 - Instalação da ferramenta Laravel
 
 # ############
@@ -40,10 +46,12 @@
 
 * CONCLUÍDO
 
+- Documentação
+
 - Criação dos menus (rotas ainda não só os menus no navbar) para as principais controllers/views existentes no projeto. 
   - adicionar tarefas
   - listar tarefas 
-  - admin (cadastrar usuarios) 
+  - admin (cadastrar usuarios)
 
 # ############
 
@@ -51,9 +59,7 @@
 
 * CONCLUÍDO
 
-- Criação um form em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
-
-- Criação de um list em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
+- Documentação
 
 # ############
 
@@ -61,7 +67,7 @@
 
 * CONCLUÍDO
 
-- Criação de um calendário no site que marca as tarefas.
+- Documentação.
 
 - Instalação do Node e laravel/jetstream.
 
@@ -71,11 +77,22 @@
 
 * CONCLUÍDO
 
-- Separação de usuários para o banco de dados. 
+- Organização da documentação.
+
+- Criação da imagem de fundo.
 
 # ############
 
 ## Sprint 10
 
 * CONCLUÍDO
-- 
+
+- Organização da documentação.
+
+# ############
+
+## Sprint 11
+
+- Ajustes finais na documentação.
+
+- Gravação do vídeo para Amostra de talentos.

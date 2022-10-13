@@ -1,9 +1,10 @@
-# EDUARDO
+# HONALD
 
 ## Sprint 01
 
 * CONCLUÍDO
 - Definição do Projeto
+
 
 # ############
 
@@ -26,11 +27,12 @@
 * CONCLUÍDO
 - Desenho do projeto embrionário
 
+
 ## Sprint 05
 
 * CONCLUÍDO
 
--  Instalação da ferramenta Laravel
+- Instalação da ferramenta Laravel
 
 # ############
 
@@ -51,7 +53,7 @@
 
 - Criação um form em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
 
-- Criação de um list em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css) 
+- Criação de um list em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
 
 # ############
 
@@ -59,7 +61,7 @@
 
 * CONCLUÍDO
 
-- Criaçao da logomarca e modificação da formatação de alguns arquivos.
+- Criação de um calendário no site que marca as tarefas.
 
 - Instalação do Node e laravel/jetstream.
 
@@ -69,11 +71,22 @@
 
 * CONCLUÍDO
 
-- Formatação da View About, espaçamento da View Login e tela de fundo no Layout.
+- Separação de usuários para o banco de dados. 
 
 # ############
 
 ## Sprint 10
 
 * CONCLUÍDO
-- 
+
+- View Home inserir Calendário.
+
+- View de funções: editar, deletar e addicionar a data de execução. 
+
+# ############
+
+## Sprint 11
+
+- Ajustes finais
+
+- Gravação do vídeo para Amostra de talentos.

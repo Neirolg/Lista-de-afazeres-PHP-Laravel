@@ -1,17 +1,15 @@
-# LUIZ
+# KELVIN
 
 ## Sprint 01
 
 * CONCLUÍDO
 
 - Definição do Projeto
-
-# ############
+- Criação do repositório Git
 
 ## Sprint 02
 
 * CONCLUÍDO
-
 - Pesquisas
 
 # ############
@@ -19,7 +17,6 @@
 ## Sprint 03
 
 * CONCLUÍDO
-
 - História do usuário
 
 # ############
@@ -27,10 +24,7 @@
 ## Sprint 04
 
 * CONCLUÍDO
-
 - Desenho do projeto embrionário
-
-# ############
 
 ## Sprint 05
 
@@ -53,8 +47,6 @@
 
 ## Sprint 07
 
-# ############
-
 * CONCLUÍDO
 
 - Criação um form em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
@@ -63,11 +55,11 @@
 
 # ############
 
-## Sprint 08
+## Sprint 08 
 
 * CONCLUÍDO
 
-- Criação de um calendário no site que marca as tarefas. 
+- Criaçao da logomarca e modificação da formatação de alguns arquivos.
 
 - Instalação do Node e laravel/jetstream.
 
@@ -77,11 +69,26 @@
 
 * CONCLUÍDO
 
-- Separação de usuários para o banco de dados.
+- Formatação da View About, espaçamento da View Login e tela de fundo no Layout. 
 
 # ############
 
 ## Sprint 10
 
 * CONCLUÍDO
-- 
+
+- Configuraçao da Navebar 
+
+- Inserção imagem de fundo no Layout.
+
+- Deploy do projeto.
+
+# ############
+
+## Sprint 11
+
+- Ajustes finais.
+
+- Deploy do projeto.
+
+- Gravação do vídeo para Amostra de talentos.

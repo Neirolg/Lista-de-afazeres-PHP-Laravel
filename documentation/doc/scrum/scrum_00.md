@@ -8,7 +8,7 @@
 [Recursos                       ](scrum_03.md) 
 [História do Usuário            ](scrum_04.md) 
 [Laravel                        ](scrum_05.md)
-[                       ](scrum_03.md)  
+[                       ](scrum_06.md)  
 
 
 
