@@ -1,4 +1,4 @@
-@include('layouts.app')
+@include('layouts.navbar')
 
 <x-guest-layout>
     <div class="-my-20">
