@@ -8,7 +8,12 @@
 [Recursos                       ](scrum_03.md) 
 [História do Usuário            ](scrum_04.md) 
 [Laravel                        ](scrum_05.md)
-[                       ](scrum_06.md)  
+[Rotas, Controllers e Views     ](scrum_06.md) 
+[Formulário e Listagem          ](scrum_07.md)  
+[Logomarca e Calendário         ](scrum_08.md)
+[about, Login e Layout          ](scrum_09.md)
+[Edit, Delet, Navebar e Deploy  ](scrum_10.md)
+[Finalização, Deploy e vídeo    ](scrum_11.md)    
 
 
 

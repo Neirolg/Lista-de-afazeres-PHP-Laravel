@@ -5,9 +5,10 @@ Sprint planning
 
  ### Definições
 
-* A FAZER
-
- 
 
 * FEITO
 
+
+- Criação um form em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)
+
+- Criação de um list em html/css e vai coloar em uma blade (mesmo sem codigo de laravel/blade... só o html/css)

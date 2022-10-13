@@ -32,21 +32,23 @@
 
   <h3>Tecnologias</h3>
   <ul>
-    <li>PHP</li>
-    <li>HTML</li>
-    <li>SQL</li>
-    <li>Laravel</li>
-    <li>CCS</li>
-    <li>Javascript</li>
+    <li>PHP - Versão 8.4</li>
+    <li>HTML - Versão 5</li>
+    <li>MySQL - Versão 8.0.1</li>
+    <li>Laravel - Versão 9.0</li>
+    <li>JetStream - Versão 2.12.3</li>
+    <li>Tailwind - Versão </li>
+    <li>CCS - Versão 5</li>
+    <li>Javascript - Versão ECMAScript 2020</li>
   </ul>
   <br>
   <br>
 
   <h3>Ferramentas</h3>
   <ul>
-    <li>Gitini</li>
-    <li>GitHub</li>
-    <li>VSCode</li>
+    <li>Gitini - Versão2.24.3</li>
+    <li>GitHub - Versão Web</li>
+    <li>VSCode - Versão 1.72 - 2022</li>
   </ul>
   <br>
   <br>
@@ -87,10 +89,7 @@
   <b><li>Adriana Ewerling Ferreira da Rocha</li></b>
 </ul>
 
-[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5549999733703)   
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriana-ewerling-ferreira-da-rocha/)  
-[![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adrianalibras@gmail.com)  
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AdrianaEFRocha)   
+[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5549999733703)   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriana-ewerling-ferreira-da-rocha/)  [![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adrianalibras@gmail.com)  [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AdrianaEFRocha)   
 
 <br>
 <br>
@@ -98,10 +97,7 @@
   <b><li>Eduardo Fritsch Silva</li></b>
 </ul>
 
-[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5549998217619)   
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-fritsch-silva-a6a93b238/)  
-[![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eduardofritschsilva@gmail.com)  
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Grogww) 
+[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5549998217619)   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-fritsch-silva-a6a93b238/)  [![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eduardofritschsilva@gmail.com)  [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Grogww) 
 
 <br>
 <br>
@@ -109,10 +105,7 @@
   <b><li>Honald Terleski</li></b>
 </ul>
 
-[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5547997000381)   
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/honaldterleski/)  
-[![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ho.terleeski@gmail.com)  
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Terleski) 
+[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5547997000381)   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/honaldterleski/)  [![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ho.terleeski@gmail.com)  [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Terleski) 
 
 
 <br>
@@ -121,10 +114,7 @@
   <b><li>Kelvin Kamchen</li></b>
 </ul>
 
-[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5547999483625)   
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelvin-kamchen-3b512a238/)  
-[![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelvin.kamchen@hotmail.com)  
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KelvinKamchen)  
+[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5547999483625)   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelvin-kamchen-3b512a238/)  [![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelvin.kamchen@hotmail.com)  [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KelvinKamchen)  
 
 
 <br>
@@ -133,10 +123,7 @@
   <b><li>Luis Paulo da Silva</li></b>
 </ul>
 
-[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5548984813409)   
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-paulo-da-silva-154b564b/)  
-[![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lps89br@gmail.com)  
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neirolg)   
+[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5548984813409)   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-paulo-da-silva-154b564b/)  [![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lps89br@gmail.com) [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neirolg)   
 
 <br>
 <br>
@@ -144,10 +131,7 @@
   <b><li>Sérgio Zanetti</li></b>
 </ul>
 
-[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5549984371040)   
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s%C3%A9rgio-luiz-zanetti-a5909737/)  
-[![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zanetti.sc@gmail.com)  
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SERGIOZANETTI)
+[![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsa.me/5549984371040)   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s%C3%A9rgio-luiz-zanetti-a5909737/)  [![Gmail Badge](  https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zanetti.sc@gmail.com)  [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SERGIOZANETTI)
 <br>
 <br>
 
@@ -157,6 +141,7 @@
 <dl>
   <dt>Adriano Machado</dt>
     <dd>adriano@machado.tec.br | +55 67 9 9263-6781 </dd>
+    <dd> ProWay - BluSoft - Entra21 </dd>
 </dl>
 <br>
 <br>
