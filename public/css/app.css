@@ -10009,14 +10009,14 @@ h3 {
 
 .calendar {
   display: inline-flex;
-  top: 75%;
+  top: 25px;
   left: 65%;
   position: absolute;
   padding: 16px;
   margin: 0 auto;
   max-width: 320px;
   background: white;
-  border-radius: 4px;
+  border-radius: 7px;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
@@ -10101,7 +10101,7 @@ body {
 
 .clock {
   position: absolute;
-  top: 80%;
+  top: 25px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   color: #2176bd;
@@ -10109,7 +10109,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 7px;
   background: white;
-  border-radius: 4px;
+  border-radius: 7px;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   padding: 10px;
 
@@ -10120,11 +10120,14 @@ body {
   position: absolute;
   display: flexbox;
   text-align: left;
-  top: 75%;
+  top: 25px;
   left: 15%;
   background: white;
-  border-radius: 4px;
+  border-radius: 7px;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   padding: 10px;
+  border-style: groove;
+  border-width: 1px;
+  border-color: ;
 }
 

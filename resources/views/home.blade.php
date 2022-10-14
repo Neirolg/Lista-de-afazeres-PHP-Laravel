@@ -1,8 +1,9 @@
 @include('layouts.app')
 <div class ="min-h-screen -my-12 bg-[url('/public/background.png')]  ">
-<?php use App\Http\Controllers\TodosController;?>
+<?php use App\Http\Controllers\TodosController;
+echo TodosController::calendar(); ?>
 
- <x-guest-layout>
+<x-guest-layout>
  <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 
     
@@ -28,7 +29,7 @@ $currentTime = time();
 <html>
 <body>
     <div class="report-container">
-        <h2><?php echo $data->name; ?> Condições Climáticas</h2>
+        <h2> Condições Climáticas de <?php echo $data->name; ?></h2>
         <div class="time">
             <div><?php echo ucwords($data->weather[0]->description); ?></div>
         </div>
@@ -47,7 +48,7 @@ $currentTime = time();
 </html>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-9 my-10 inline">
+        <div class="col-md-9 my-11">
             <div class="card">
             <h1 class="font-bold text-5xl py-3 text-sky-700 text-center mb-2">Suas tarefas</h1>
                 <h5 class="card-header">
@@ -117,8 +118,6 @@ $currentTime = time();
     </div>
 </div>
 
-<div class="my-25">
-    <?php echo TodosController::calendar(); ?>
-</div>
+
 </x-guest-layout>
 
