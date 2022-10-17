@@ -10009,7 +10009,7 @@ h3 {
 
 .calendar {
   display: inline-flex;
-  top: 25px;
+  top: 65%;
   left: 65%;
   position: absolute;
   padding: 16px;
@@ -10101,7 +10101,7 @@ body {
 
 .clock {
   position: absolute;
-  top: 25px;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   color: #2176bd;
@@ -10120,7 +10120,7 @@ body {
   position: absolute;
   display: flexbox;
   text-align: left;
-  top: 25px;
+  top: 65%;
   left: 15%;
   background: white;
   border-radius: 7px;
