@@ -1,7 +1,6 @@
 @include('layouts.navbar')
 
 <x-guest-layout>
-   
     <x-jet-authentication-card>
         <x-slot name="logo">
         <img src="{{ asset('/logo/todolist.png') }}" />
@@ -43,7 +42,7 @@
                     </a>
                 @endif
 
-                <x-jet-button class="ml-4">
+                <x-jet-button class="ml-4 text-sky-700">
                     {{ __('Entrar') }}
                 </x-jet-button>
             </div>
