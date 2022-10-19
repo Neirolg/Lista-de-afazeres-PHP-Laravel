@@ -73,7 +73,7 @@
                                 <input class="form-check-input" type="checkbox" name="completed" id="completed" value="{{ old('completed')}}">
 
                                 <label class="form-check-label" for="completed">
-                                    Completed?
+                                    Tarefa Concluida
                                 </label>
                             </div>
                         </div>

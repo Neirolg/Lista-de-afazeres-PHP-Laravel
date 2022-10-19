@@ -82,7 +82,7 @@
                                     @endif
 
                                     <label class="form-check-label" for="completed">
-                                        Completed?
+                                    Tarefa Concluida
                                     </label>
                                 </div>
                             </div>
