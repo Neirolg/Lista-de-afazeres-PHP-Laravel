@@ -55,7 +55,7 @@
 
                 <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-2">
-                                <button type="button" class="btn btn-outline-dark">
+                                <button type="submit" class="btn btn-outline-dark">
                                    Cadastrar
                                 </button>
                             </div>
