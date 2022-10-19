@@ -42,9 +42,13 @@
                     </a>
                 @endif
 
-                <x-jet-button class="ml-4 text-sky-700">
-                    {{ __('Entrar') }}
-                </x-jet-button>
+                <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4 text-right">
+                                <button type="submit" class="btn btn-outline-success">
+                                    Entrar
+                                </button>
+                            </div>
+                        </div>
             </div>
         </form>
     </x-jet-authentication-card>

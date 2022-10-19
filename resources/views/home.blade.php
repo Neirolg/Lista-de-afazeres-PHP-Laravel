@@ -107,7 +107,7 @@ $currentTime = time();
                                 </tr>
                             @empty
                                 <tr>
-                                    No Items Added!
+                                    Nenhuma tarefa adicionada
                                 </tr>
                             @endforelse
                         </tbody>
