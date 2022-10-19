@@ -53,9 +53,13 @@
                     {{ __('Já é cadastrado?') }}
                 </a>
 
-                <x-jet-button class="ml-4">
-                    {{ __('Cadastrar') }}
-                </x-jet-button>
+                <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-2">
+                                <button type="button" class="btn btn-outline-dark">
+                                   Cadastrar
+                                </button>
+                            </div>
+                        </div>
             </div>
         </form>
     </x-jet-authentication-card>

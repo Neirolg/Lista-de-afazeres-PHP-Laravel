@@ -27,9 +27,13 @@
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                <x-jet-button>
-                    {{ __('Enviar Email') }}
-                </x-jet-button>
+            <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-2">
+                                <button type="button" class="btn btn-outline-dark">
+                                    Enviar email
+                                </button>
+                            </div>
+                        </div>
             </div>
         </form>
     </x-jet-authentication-card>
