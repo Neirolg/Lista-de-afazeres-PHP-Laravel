@@ -43,8 +43,8 @@
                 @endif
 
                 <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-2 text-black">
-                                <button type="submit" class="btn btn-dark">
+                            <div class="col-md-8 offset-md-2">
+                                <button type="button" class="btn btn-outline-dark">
                                     Entrar
                                 </button>
                             </div>
