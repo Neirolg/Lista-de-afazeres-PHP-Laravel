@@ -22,7 +22,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar my-11 py-2 navbar-expand-md navbar-dark bg-sky-700 shadow-sm">
+        <nav class="navbar -my-11 py-2 navbar-expand-md navbar-dark bg-sky-700 shadow-sm">
             <div class="container">
             <a class="navbar-brand font-extrabold font-serif " href="{{ route('home') }}"><img src="{{ asset('/logo/todolist-branco-sem-caderno.png') }}" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
