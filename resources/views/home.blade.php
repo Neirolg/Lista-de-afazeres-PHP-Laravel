@@ -1,5 +1,5 @@
 @include('layouts.app')
-<div class ="min-h-screen -my-12 bg-[url('/public/background.png')]  ">
+<div class ="min-h-screen bg-[url('/public/background.png')]  ">
 <?php use App\Http\Controllers\TodosController;
 echo TodosController::calendar(); ?>
 
