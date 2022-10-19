@@ -12,7 +12,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-sky-700  py-2">
     <div class="container">
         <a class="navbar-brand font-extrabold font-serif " href="{{ route('home') }}"><img src="{{ asset('/logo/todolist-branco-sem-caderno.png') }}" /></a>
-        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
