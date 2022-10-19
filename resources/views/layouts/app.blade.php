@@ -64,11 +64,11 @@
                                     <x-jet-dropdown-link href="{{ route('home') }}">
                                         {{ __('Tarefas') }}
                                     </x-jet-dropdown-link>
-
+<!-- 
                                     <x-jet-dropdown-link href="{{ route('profile.show') }}">
                                         {{ __('Perfil') }}
                                     </x-jet-dropdown-link>
-
+-->
                                     <x-jet-dropdown-link href="{{ route('home.about') }}">
                                         {{ __('Sobre') }}
                                     </x-jet-dropdown-link>
