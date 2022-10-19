@@ -1,7 +1,7 @@
 @include('layouts.app')
 
 <x-guest-layout>
-<div class ="min-h-screen -my-12 bg-[url('/public/background.png')]  ">
+<div class ="min-h-screen bg-[url('/public/background.png')]  ">
     <div class="container">
         <div class="row justify-content-center ">
             <div class="col-md-8 my-10">
