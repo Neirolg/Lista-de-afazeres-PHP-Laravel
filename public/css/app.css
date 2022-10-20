@@ -10098,7 +10098,37 @@ h3 {
 body {
 
 }
+@media screen and (max-width:480px)
+{
+  .clock {
+  top: 77% !important;
+  color: #2176bd;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+}
+.calendar {
 
+  top: 115% !important;
+  left: 15% !important;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.report-container {
+
+  top: 87% !important;
+  left: 20% !important;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-style: groove;
+  border-width: 1px;
+}
+}
 .clock {
   position: absolute;
   top: 70%;
@@ -10112,8 +10142,6 @@ body {
   border-radius: 7px;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   padding: 10px;
-
-
 }
 
 .report-container {
