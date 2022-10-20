@@ -10095,10 +10095,7 @@ h3 {
   align-items: center;
 }
 
-body {
-
-}
-@media screen and (max-width:480px)
+@media screen and (max-width:1200px)
 {
   .clock {
   top: 77% !important;
@@ -10146,7 +10143,6 @@ body {
 
 .report-container {
   position: absolute;
-  display: flexbox;
   text-align: left;
   top: 65%;
   left: 15%;
@@ -10156,6 +10152,5 @@ body {
   padding: 10px;
   border-style: groove;
   border-width: 1px;
-  border-color: ;
 }
 
