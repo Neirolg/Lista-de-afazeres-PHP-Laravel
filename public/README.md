@@ -84,7 +84,9 @@
 
 <h3><b>ALUNOS</b></h3>
 <br>
-
+<body>
+<img src="/img/adriana.jpg" width=200px>
+</body>
 <ul>
   <b><li>Adriana Ewerling Ferreira da Rocha</li></b>
 </ul>
@@ -96,6 +98,9 @@
 
 <br>
 <br>
+<body>
+<img src="/img/eduardo.jpg" width=200px>
+</body>
 <ul>
   <b><li>Eduardo Fritsch Silva</li></b>
 </ul>
@@ -107,6 +112,9 @@
 
 <br>
 <br>
+<body> 
+<img src="/img/honald.jpg" width=200px>
+</body>
 <ul>
   <b><li>Honald Terleski</li></b>
 </ul>
@@ -119,6 +127,9 @@
 
 <br>
 <br>
+<body>
+<img src="/img/kelvin.png" width=200px>
+</body>
 <ul>
   <b><li>Kelvin Kamchen</li></b>
 </ul>
@@ -131,6 +142,9 @@
 
 <br>
 <br>
+<body>
+<img src="/img/luis.png" width=200px>
+</body>
 <ul>
   <b><li>Luis Paulo da Silva</li></b>
 </ul>
@@ -142,6 +156,9 @@
 
 <br>
 <br>
+<body>
+<img src="/img/sergio.jpg" width=200px>
+</body>
 <ul>
   <b><li>Sérgio Zanetti</li></b>
 </ul>
@@ -152,13 +169,15 @@
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SERGIOZANETTI)
 <br>
 <br>
-
+<body>
+<img src="/img/adriano.jpeg" width=200px>
+</body>
 
 <h3> <b>PROFESSOR</b> </h3>
 
 <dl>
   <dt>Adriano Machado</dt>
-    <dd>adriano@machado.tec.br | +55 67 9 9263-6781 </dd>
+    <dd>adriano@machado.tec.br | +55 41 9 93500-8031 </dd>
 </dl>
 <br>
 <br>

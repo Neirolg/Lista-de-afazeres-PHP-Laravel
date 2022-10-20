@@ -140,7 +140,7 @@
 
 <dl>
   <dt>Adriano Machado</dt>
-    <dd>adriano@machado.tec.br | +55 67 9 9263-6781 </dd>
+    <dd>adriano@machado.tec.br | +55 41 9 93500-8031 </dd>
     <dd> ProWay - BluSoft - Entra21 </dd>
 </dl>
 <br>
